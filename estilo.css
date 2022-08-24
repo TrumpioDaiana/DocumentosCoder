@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    padding:0;
+}
+
+.background-head {
+    font-style : italic;
+    border: solid 1px black;
+    padding: 80px 5px 5px 5px;
+    overflow:hidden;
+    display: block;
+    position:fixed; 
+    top:0;
+    left:0;
+    width:100%;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/denim.png");
+    text-align: center;
+}
+.body-general {
+
+ padding: 5% 5% 5% 5%;
+}
+.image-encabezado {
+    margin-top: 160px;
+    height: 120px;
+    overflow: hidden;
+    background-image: url(../images/encabezado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu {
+    position: fixed;
+    top: 170px;
+    background-color: beige;
+    background-image: linear-gradient(grey beige);
+    /*to right para ir hacia la derecha*/
+    font-style:normal;
+    display: inline-block;
+    list-style: none;
+    font-size: 0;
+    width:100%;
+    
+  
+    
+}
+.itemMenu {
+    width: 33%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    
+    
+}
+.subitemMenu {
+    position: absolute;
+    display: none;
+    list-style:none;
+    background-color: beige;
+}
+.linksMenu{
+    display: block;
+}
+.itemMenu:hover ol{
+    display:block;
+    
+}
+.grid-index {
+    display:grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 250px 400px;
+    justify-content: space-around;
+    align-content:stretch;
+    justify-items: center;  
+}
+.grid {
+    display:grid;
+    grid-template-columns: 600px 600px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+@media (min-width:768px){
+.body-sobreNosotros{
+    padding-left: 30%;
+    padding-right: 5%;
+    font-size: 10px;
+    font-weight:bold;
+    line-height: 1.6;
+    width: auto;
+    height: 350px;
+    overflow:scroll;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-justify: auto;
+    background-image: url(../images/Trumpio-daiana.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20% auto;
+}
+}
+.links-on-body{
+    text-decoration: none;
+
+}
+
+.body-novedades {
+    margin-top: 230px;
+    height: auto;
+    width:100%;
+    overflow: hidden;
+    background-size: cover;
+    padding: 5% 5% 5% 5%;
+
+}
+
+.tabla-categorias{
+    border: 5px solid grey;
+    padding: 20px;
+    word-spacing: 10px;
+}
+.tablas-casilleros {
+    background-color: beige;
+    border-color: grey;
+}   
+
+.body-consultas {
+    margin-top: 230px;
+    padding: 5px;
+    height: auto;
+    width:100%;
+    overflow: hidden;
+    background-size: cover;
+    background-color: beige;
+    
+}
+
+.background-foot{
+    font-style : italic;
+    border: solid 1px black;
+    padding: 5px 5px 5px 5px;
+    overflow:hidden;
+    display: block;
+    /*position:fixed; 
+    */
+    bottom:0;
+    left:0;
+    width:100%;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/denim.png");
+    background-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
