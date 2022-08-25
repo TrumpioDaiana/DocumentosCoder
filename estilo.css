@@ -2,7 +2,21 @@ html, body {
     margin: 0;
     padding:0;
 }
+@keyframes spinner-grow {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: none;
+    }
+  }
 
+ .boton-arriba {
+border-color: black;
+background-color: grey;
+   
+ } 
 .background-head {
     font-style : italic;
     border: solid 1px black;
@@ -17,7 +31,7 @@ html, body {
     text-align: center;
 }
 .body-general {
- background-image: linear-gradient(to button, beige, white);
+
  padding: 5% 5% 5% 5%;
 }
 .image-encabezado {
